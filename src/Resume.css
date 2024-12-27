@@ -1,0 +1,110 @@
+/* img{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    color: rgb(248, 238, 246);;
+    background-color: rgb(248, 238, 246);
+} */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+.right-hand-side {
+    width: 150%;
+    max-width: 1300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.training,
+.hobby,
+.projects {
+    margin-top: 15px;
+}
+.conn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.conn a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.conn a:hover {
+    background-color: #1abc9c;
+}
+
+p {
+    font-size: 1rem;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.esl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education,.skills,.language {
+    flex-basis: 20%;
+}
+
+.thi {
+    display: flex;
+    justify-content: space-between;
+}
+.training, .hobby, .Interest {
+    flex-basis: 25%;
+}
+.pi {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+

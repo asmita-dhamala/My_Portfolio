@@ -1,0 +1,38 @@
+.main12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: #f4f4f9;
+    animation: fadeIn 2s ease-out;  /* Add fade-in animation to the whole container */
+}
+.fc, .linkend, .github, .insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    font-size: 1.5rem;
+    opacity: 0;
+    animation: slideIn 1s forwards; /* Animation for each icon (slides in) */
+}
+.fc svg, .linkend svg, .github svg, .insta svg {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.fc a, .linkend a, .github a, .insta a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.fc:hover svg, .linkend:hover svg, .github:hover svg, .insta:hover svg {
+    color: #0073e6;  
+}
+.fc:hover a, .linkend:hover a, .github:hover a, .insta:hover a {
+    color: #0073e6;
+    transform: scale(1.1); 
+}
