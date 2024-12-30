@@ -12,7 +12,7 @@ function AboutMe (){
             <div className='main12'>
                 <div className='fc'>
                     <FaFacebook />
-                    <a href='https://www.facebook.com/asmita.dhamala.37/' target='blank'>facebook</a>
+                    <a href='https://www.facebook.com/' target='blank'>facebook</a>
                 </div>
                 <div className='linkend'>
                     <FaLinkedin />
